@@ -79,7 +79,7 @@ span {
   padding-top: 2em;
 }
 
-.stat__items {
+.stat_items {
   margin-bottom: 1em;
   margin-right: 1.5em;
   position: relative;
@@ -90,7 +90,7 @@ h2 {
   color: var(--headingstats);
   font-weight: 700;
 }
-.stat__items > p {
+.stat_items > p {
   font-size: 0.8em;
   color: var(--stat-headings);
   text-transform: uppercase;
