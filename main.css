@@ -8,7 +8,7 @@
   --main-p: hsla(0, 0%, 100%, 0.75);
   --stat-headings: hsla(0, 0%, 100%, 0.6);
   /* typography */
-  --primary-fs: 15px;
+  /* --primary-fs: 15px; */
 }
 
 * {
@@ -17,30 +17,29 @@
   box-sizing: border-box;
 }
 body {
+  width: 100vw;
   height: 100vh;
-  font-size: var(--primary-fs);
   font-family: sans-serif;
   display: grid;
   place-content: center;
-  justify-content: center;
   background-color: var(--main-bg);
+  position: relative;
 }
 
 /* layout */
-.container {
-  width: 900px;
+main {
+  width: 100%;
   max-width: 375px;
-  min-height: 90vh;
-  margin-block-start: 1em;
+  height: 90vh;
+  border-radius: 0.5em;
   background-color: var(--card-bg);
   display: block;
   position: relative;
-  border-radius: 0.5em;
 }
 
 .img__wrapper {
   width: 100%;
-  height: 35vh;
+  height: 40%;
   background-image: url("./Images/image-header-mobile.jpg");
   background-position: center;
   background-size: cover;
@@ -55,57 +54,70 @@ body {
 .text__wrapper {
   width: 100%;
   max-width: 350px;
+  height: 100%;
   margin-inline: auto;
-  height: max-content;
-  padding: 1em 3em;
   text-align: center;
   position: relative;
 }
+
 .text {
   position: relative;
   font-size: 0.9em;
-  margin-bottom: 1.756em;
+  margin-block: 1.5em;
   text-align: center;
-  line-height: 1.3em;
+  line-height: 1.5em;
 }
+
 h1 {
   color: var(--headingstats);
-  font-size: 2em;
+  font-size: 1.625rem;
   line-height: 1em;
   margin: 0.5em 0;
 }
+
 span {
   color: var(--accent);
 }
+
 p {
   font-size: 1.1em;
   color: var(--main-p);
 }
-.stat__items {
+
+.stats {
+  width: 100%;
   position: relative;
 }
-h2 {
-  font-size: 1.4em;
+
+.stat__items {
+  margin-block-end: 1em;
+  font-size: 10px;
+}
+
+.stat__items > h2 {
+  font-size: 1.85rem;
   color: var(--headingstats);
-  font-weight: 600;
-  margin-bottom: 0.5em;
+  font-weight: 700;
+  margin-bottom: 0.025em;
 }
 .stat__items > p {
-  font-size: 0.75em;
+  font-size: 0.85rem;
   color: var(--stat-headings);
   text-transform: uppercase;
 }
+
 h6 {
   color: hsla(0, 0%, 61%, 0.747);
   margin-inline: auto;
   font-weight: 100;
   margin-top: 5px;
 }
-@media screen and (min-width: 400px) {
-  .container {
+
+@media screen and (min-width: 1046px) {
+  main {
     width: 1440px;
     max-width: 900px;
-    min-height: 50vh;
+    height: 50vh;
     margin-block-start: 1em;
     background-color: var(--card-bg);
     display: block;
@@ -114,7 +126,7 @@ h6 {
   }
   .img__wrapper {
     width: 50%;
-    height: 50vh;
+    height: 100%;
     background-image: url("./Images/image-header-desktop.jpg");
     border-bottom-right-radius: 0.3em;
     border-top-left-radius: 0;
@@ -135,7 +147,7 @@ h6 {
     position: relative;
     font-size: 1em;
     text-align: left;
-    margin-bottom: 3em;
+    margin-block: 3em;
   }
   .text h1 {
     margin-bottom: 1em;
