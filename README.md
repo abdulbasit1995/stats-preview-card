@@ -62,4 +62,4 @@ I will love to continue writing more responsive designs and semantically writing
 
 ## Acknowledgments
 
-Thank you allah for your blessings and grace. Thank @Grace and @Matt - all from Slack Community - for the guidance and pro tips on writing a good code. Thank Bilal(Zoolain)
+Thank you allah for your blessings and grace. Thank [@Grace](https://frontendmentor.slack.com/team/U01D6CR3C68) and [@Matt](https://frontendmentor.slack.com/team/UCWG477SM) - all from Slack Community - for the guidance and pro tips on writing a good code. Thank Bilal(Zoolain)
