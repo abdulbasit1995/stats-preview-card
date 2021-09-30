@@ -29,6 +29,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop version](<./Images/screenshot_1(1).png>)
+
 ![Mobile version](<./Images/screenshot_1(2).png>)
 
 
