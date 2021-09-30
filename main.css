@@ -54,7 +54,6 @@ main {
 .text__wrapper {
   width: 100%;
   max-width: 350px;
-  height: 100%;
   margin-inline: auto;
   text-align: center;
   position: relative;
@@ -127,6 +126,7 @@ h6 {
   .img__wrapper {
     width: 50%;
     height: 100%;
+    padding: 0%;
     background-image: url("./Images/image-header-desktop.jpg");
     border-bottom-right-radius: 0.3em;
     border-top-left-radius: 0;
