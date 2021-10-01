@@ -115,8 +115,8 @@ h6 {
 @media screen and (min-width: 756px) {
   main {
     width: 100vw;
-    max-width: 920px;
-    height: 50vh;
+    max-width: 992px;
+    height: 55vh;
     background-color: var(--card-bg);
     display: block;
     position: relative;
@@ -125,7 +125,11 @@ h6 {
   .img__wrapper {
     width: 50%;
     height: 100%;
-    background-image: url("./Images/image-header-desktop.jpg");
+    background-image: linear-gradient(
+        rgba(44, 42, 42, 0.863),
+        rgba(51, 42, 42, 0.863)
+      ),
+      url("./Images/image-header-desktop.jpg");
     border-bottom-right-radius: 0.3em;
     border-top-left-radius: 0;
     position: relative;
@@ -145,7 +149,7 @@ h6 {
     max-width: 330px;
     position: relative;
     text-align: left;
-    margin-block: 2.5em;
+    margin-block: 3.5em;
     margin-inline: auto;
   }
   .text h1 {
