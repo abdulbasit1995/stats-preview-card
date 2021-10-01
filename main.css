@@ -112,12 +112,11 @@ h6 {
   margin-top: 5px;
 }
 
-@media screen and (min-width: 1046px) {
+@media screen and (min-width: 756px) {
   main {
-    width: 1440px;
-    max-width: 900px;
+    width: 100vw;
+    max-width: 920px;
     height: 50vh;
-    margin-block-start: 1em;
     background-color: var(--card-bg);
     display: block;
     position: relative;
@@ -126,7 +125,6 @@ h6 {
   .img__wrapper {
     width: 50%;
     height: 100%;
-    padding: 0%;
     background-image: url("./Images/image-header-desktop.jpg");
     border-bottom-right-radius: 0.3em;
     border-top-left-radius: 0;
@@ -136,27 +134,32 @@ h6 {
 
   .text__wrapper {
     max-width: 50%;
-    text-align: left;
     height: 100%;
-    padding: 1em 2.5em;
+    margin-inline: auto;
+    padding: 0 1.9vw;
+    text-align: left;
     position: relative;
     float: left;
   }
   .text {
     max-width: 330px;
     position: relative;
-    font-size: 1em;
     text-align: left;
-    margin-block: 3em;
+    margin-block: 2.5em;
+    margin-inline: auto;
   }
   .text h1 {
-    margin-bottom: 1em;
+    font-size: 1.7rem;
+    margin-bottom: 0.9em;
+    line-height: 1.3em;
   }
   .text p {
-    font-size: 0.95rem;
+    max-width: 300px;
+    font-size: 0.8rem;
+    line-height: 1.5em;
   }
   .stat__items {
-    margin-right: 1.8em;
+    margin-right: 2em;
     display: inline-block;
   }
 }
